@@ -1,6 +1,6 @@
-# Mini Bootcamp Starter Code
+# Audio Pintar
 
-This is a starter code for mini bootcamp: https://dub.sh/ngooding-7-hari
+<!-- This is a starter code for mini bootcamp: https://dub.sh/ngooding-7-hari -->
 
 ![demo](https://assets.pika.style/0327b37e-b8d0-47af-80c5-f8cdeacbfd96/editor-images/screenshot-editor/pika-1735009615658.png)
 
@@ -8,21 +8,26 @@ This is a starter code for mini bootcamp: https://dub.sh/ngooding-7-hari
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up your environment variables:
+
    ```bash
    cp .env.example .env
    ```
+
    Fill in your environment variables for:
+
    - Database connection
    - AWS S3 credentials
    - ElevenLabs API key
    - NextAuth configuration
 
 4. Initialize the database:
+
    ```bash
    npm run db:generate
    npm run db:push
